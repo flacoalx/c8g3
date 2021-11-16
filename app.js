@@ -1,8 +1,5 @@
-var express = require("express"),
-    app = express(),
-    bodyParser = require("body-parser"),
-    methodOverride = require("method-override");
-mongoose = require('mongoose');
+var express = require("express")
+var app = express()
 app.use(express.json());
 app.use(express.urlencoded({
     extended: true
